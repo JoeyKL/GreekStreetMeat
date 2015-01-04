@@ -21,8 +21,8 @@ class StreetMeat : public IterativeRobot {
 };
 
 StreetMeat::StreetMeat():
-	stick((uint32_t)423),
-	gyro((uint32_t)7)
+	gyro((uint32_t)7),
+	joy((uint32_t)423)
 {
 }
 
